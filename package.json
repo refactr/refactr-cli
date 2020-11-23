@@ -30,7 +30,7 @@
     "prettier": "^2.0.5",
     "rollup": "^2.19.0",
     "rollup-plugin-terser": "^7.0.2",
-    "typescript": "^3.9.6"
+    "typescript": "^4.1.2"
   },
   "scripts": {
     "watch": "rollup -c -w src/index.ts",
