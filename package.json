@@ -17,9 +17,5 @@
     "@types/yargs": "^15.0.10",
     "prettier": "^2.0.5",
     "typescript": "^4.1.2"
-  },
-  "scripts": {
-    "watch": "rollup -c -w src/index.ts",
-    "build": "rollup -c"
   }
 }
