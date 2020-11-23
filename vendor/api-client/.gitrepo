@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/refactr/refactr-api-client.git
+	branch = master
+	commit = 12b9e764654bb4460126f0df3e241cdf69700508
+	parent = 4de16a965399bd36d6f5b21a959b3049592af665
+	method = merge
+	cmdver = 0.4.3
