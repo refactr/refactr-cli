@@ -17,3 +17,6 @@
 node_modules
 
 dist
+
+# Personal, machine-local direnv file
+.local.envrc
