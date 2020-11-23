@@ -9,6 +9,7 @@
     "axios": "^0.19.2",
     "commander": "^6.0.0",
     "console-table-printer": "^2.3.3",
+    "winston": "^3.3.3",
     "yargs": "^16.1.1"
   },
   "devDependencies": {
