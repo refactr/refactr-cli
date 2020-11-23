@@ -1,4 +1,4 @@
-import { ProjectsApi } from '@refactr/api-client';
+import { ProjectsApi } from '../../vendor/api-client/src';
 
 import { getConfig } from '../getConfig';
 import { error, handleAPIError } from '../utilities';

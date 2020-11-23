@@ -1,6 +1,6 @@
 import { printTable } from 'console-table-printer';
 
-import { JobsApi, RunsApi } from '@refactr/api-client';
+import { JobsApi, RunsApi } from '../../vendor/api-client/src';
 
 import { error, log } from '../utilities';
 import { getConfig } from '../getConfig';
