@@ -8,7 +8,8 @@
   "dependencies": {
     "axios": "^0.19.2",
     "commander": "^6.0.0",
-    "console-table-printer": "^2.3.3"
+    "console-table-printer": "^2.3.3",
+    "yargs": "^16.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
