@@ -18,6 +18,7 @@
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-typescript": "^7.10.4",
     "@babel/runtime": "^7.11.2",
+    "@openapitools/openapi-generator-cli": "^2",
     "@rollup/plugin-alias": "^3.1.1",
     "@rollup/plugin-babel": "^5.1.0",
     "@rollup/plugin-commonjs": "^14.0.0",
@@ -25,9 +26,6 @@
     "prettier": "^2.0.5",
     "rollup": "^2.23.0",
     "typescript": "^3.9.7"
-  },
-  "peerDependencies": {
-    "@openapitools/openapi-generator-cli": "^2"
   },
   "scripts": {
     "build": "rollup -c",
