@@ -7,6 +7,7 @@ dependencies:
   winston: 3.3.3
   yargs: 16.1.1
 devDependencies:
+  '@tsconfig/node14': 1.0.0
   '@types/node': 14.14.9
   '@types/yargs': 15.0.10
   '@typescript-eslint/eslint-plugin': 4.8.2_6341bfd4e6c74608cac2d9a1d059520a
@@ -92,6 +93,10 @@ packages:
       node: '>= 8'
     resolution:
       integrity: sha512-1V9XOY4rDW0rehzbrcqAmHnz8e7SKvX27gh8Gt2WgB0+pdzdiLV83p72kZPU+jvMbS1qU5mauP2iOvO8rhmurQ==
+  /@tsconfig/node14/1.0.0:
+    dev: true
+    resolution:
+      integrity: sha512-RKkL8eTdPv6t5EHgFKIVQgsDapugbuOptNd9OOunN/HAkzmmTnZELx1kNCK0rSdUYGmiFMM3rRQMAWiyp023LQ==
   /@types/jmespath/0.15.0:
     dev: false
     resolution:
@@ -1950,6 +1955,7 @@ packages:
     resolution:
       integrity: sha512-hAD1RcFP/wfgfxgMVswPE+z3tlPFtxG8/yWUrG2i17sTWGCGqWnxKcLTF4cUKDUK8fzokwsmO9H0TDkRbMHy8w==
 specifiers:
+  '@tsconfig/node14': ^1.0.0
   '@types/jmespath': ^0.15.0
   '@types/node': '14'
   '@types/yargs': ^15.0.10
