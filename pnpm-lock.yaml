@@ -1,7 +1,9 @@
 dependencies:
+  '@types/jmespath': 0.15.0
   axios: 0.19.2
   commander: 6.0.0
   console-table-printer: 2.3.3
+  jmespath: 0.15.0
   winston: 3.3.3
   yargs: 16.1.1
 devDependencies:
@@ -24,6 +26,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-+A1YivoVDNNVCdfozHSR8v/jyuuLTMXwjWuxPFlFlUapXoGc+Gj9mDlTDDfrwl7rXCl2tNZ0kE8sIBO6YOn96Q==
+  /@types/jmespath/0.15.0:
+    dev: false
+    resolution:
+      integrity: sha1-SgFikJaoYjHIkaDi3szBX1PJKR0=
   /@types/node/14.14.9:
     dev: true
     resolution:
@@ -210,6 +216,12 @@ packages:
     dev: false
     resolution:
       integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+  /jmespath/0.15.0:
+    dev: false
+    engines:
+      node: '>= 0.6.0'
+    resolution:
+      integrity: sha1-o/Iiqarp+Wb10nx5ZRDigJF2Qhc=
   /kuler/2.0.0:
     dev: false
     resolution:
@@ -439,12 +451,14 @@ packages:
     resolution:
       integrity: sha512-hAD1RcFP/wfgfxgMVswPE+z3tlPFtxG8/yWUrG2i17sTWGCGqWnxKcLTF4cUKDUK8fzokwsmO9H0TDkRbMHy8w==
 specifiers:
+  '@types/jmespath': ^0.15.0
   '@types/node': '14'
   '@types/yargs': ^15.0.10
   axios: ^0.19.2
   commander: ^6.0.0
   console-table-printer: ^2.3.3
   env-paths: ^2.2.0
+  jmespath: ^0.15.0
   prettier: ^2.0.5
   typescript: ^4.1.2
   winston: ^3.3.3
