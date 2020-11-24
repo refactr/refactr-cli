@@ -17,5 +17,10 @@
     "@types/yargs": "^15.0.10",
     "prettier": "^2.0.5",
     "typescript": "^4.1.2"
+  },
+  "optionalDependencies": {
+    "xdg-app-paths": "^5.4.1",
+    "xdg-basedir": "^4.0.0",
+    "xdg-portable": "^7.2.2"
   }
 }
