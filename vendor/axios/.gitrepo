@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/axios/axios.git
+	branch = master
+	commit = c7329fefc890050edd51e40e469a154d0117fc55
+	parent = 69339d3d2d41900dcb28494d05a7154d23c07f2f
+	method = merge
+	cmdver = 0.4.3
