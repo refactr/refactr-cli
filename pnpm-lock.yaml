@@ -1,5 +1,5 @@
 dependencies:
-  axios: 0.19.2
+  axios: 0.21.0
   commander: 6.0.0
   console-table-printer: 2.3.3
   jmespath: 0.15.0
@@ -326,12 +326,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-TR2mEZFVOj2pLStYxLht7TyfuRzaydfpxr3k9RpHIzMgw7A64dzsdqCxH1WJyQdoe8T10nDXd9wnEigmiuHIZw==
-  /axios/0.19.2:
+  /axios/0.21.0:
     dependencies:
-      follow-redirects: 1.5.10
+      follow-redirects: 1.13.0
     dev: false
     resolution:
-      integrity: sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
+      integrity: sha512-fmkJBknJKoZwem3/IKSSLpkdNXZeBu5Q7GA/aRsr2btgrptmSCxi2oFjZHqGdK9DoTil9PIHlPIZw2EcRJXRvw==
   /balanced-match/1.0.0:
     dev: true
     resolution:
@@ -476,12 +476,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
-  /debug/3.1.0:
-    dependencies:
-      ms: 2.0.0
-    dev: false
-    resolution:
-      integrity: sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
   /debug/4.3.1:
     dependencies:
       ms: 2.1.2
@@ -917,14 +911,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-GRnmB5gPyJpAhTQdSZTSp9uaPSvl09KoYcMQtsB9rQoOmzs9dH6ffeccH+Z+cv6P68Hu5bC6JjRh4Ah/mHSNRw==
-  /follow-redirects/1.5.10:
-    dependencies:
-      debug: 3.1.0
+  /follow-redirects/1.13.0:
     dev: false
     engines:
       node: '>=4.0'
     resolution:
-      integrity: sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
+      integrity: sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
   /fs.realpath/1.0.0:
     dev: true
     resolution:
@@ -1274,6 +1266,7 @@ packages:
     resolution:
       integrity: sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
   /ms/2.0.0:
+    dev: true
     resolution:
       integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
   /ms/2.1.2:
@@ -1961,7 +1954,7 @@ specifiers:
   '@types/yargs': ^15.0.10
   '@typescript-eslint/eslint-plugin': ^4.8.2
   '@typescript-eslint/parser': ^4.8.2
-  axios: ^0.19.2
+  axios: ^0.21.0
   commander: ^6.0.0
   console-table-printer: ^2.3.3
   env-paths: ^2.2.0
