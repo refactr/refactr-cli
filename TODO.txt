@@ -1,0 +1,29 @@
+Include token's ID in POST 201 response, enabling single get followup call
+
+Allow overriding token name, expiry units, and expiry.
+
+Demand that credentials file has private-key-style permissions
+
+Allow specifying token expiration like `2h` or `7d`. (ISO-8601 period?)
+
+TypeScript compilation failures in api-client, plus the TS 4 stuff
+
+Make credential location configurable
+
+Add more info to credential metadata
+
+Support "profiles" in credentials
+
+Global config:
+* authentication
+* --verbose
+* --quiet
+* --color
+
+Overriding flags?
+* --version
+* --help
+
+No need to DRY `--fields`?
+
+?? "Note that when `void` is returned, the handler `argv` object type will not include command-specific arguments."??
